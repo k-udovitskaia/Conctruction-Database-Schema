@@ -39,6 +39,8 @@ insert into PROJECTS values
 (108,'LabCampus','Oberschleissheim','Additional_agreement','Agreed_on_price','On_the_examination','09-22-2022','10-10-2022', 50000000,100000,'02-03-2028');
 insert into PROJECTS values   
 (109,'Airportcum','Garmisch','Main_agreement','Agreed_on_price_and_volume','Released','10-29-2015','05-05-2018',50000000,1000000,'01-01-2019');
+insert into PROJECTS values   
+(119,'Sportbuilding','Munich','Main_agreement','Agreed_on_price','Submitted','01-01-2018','05-05-2020',300000,NULL,'08-09-2025');
 
 
 create table EMPLOYEES (  
@@ -125,6 +127,8 @@ update SUPPLIERS
 SET project_id = 101 where supplier_id = 503;
 update SUPPLIERS
 set project_id = 100 where supplier_id = 509;
+update SUPPLIERS
+set project_id = 119 where supplier_id = 502;
 
  alter table PROJECTS      
       add constraint fk_projects_supplier_id foreign key (project_id) 
@@ -150,3 +154,5 @@ update PROJECTS
 set supplier_id = 507 where project_id = 108;
 update PROJECTS
 set supplier_id = 508 where project_id = 109;
+update PROJECTS
+set supplier_id = 502 where project_id = 119;
