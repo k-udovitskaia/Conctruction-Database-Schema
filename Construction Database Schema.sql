@@ -1,5 +1,5 @@
 /*  Construction Projects Database
-A company among other activities have a portfolio of construction projects. Some projects are on the stage of examination, some were submitted and released. Each project has a name, an id, and location. Every project has its start date, end date, and target date - when a building should be ready. You can also find main and additional costs and types of the agreements.  On some nights they'd play two games, but never the same game twice on the same night. We can also see if a project was fully accepted or only the price.  
+A company among other activities have a portfolio of construction projects. Some projects are on the stage of examination, some were submitted and released. Each project has a name, an id, and location. Every project has its start date, end date, and target date - when a building should be ready. You can also find main and additional costs and types of the agreements. We can also see if a project was fully accepted or only the price.  
 Created by: PostgreSQL (if you use Oracle SQL you can change datatype Integer to Number and Varchar to Varchar2 to obrain the same results)
 */ 
   
